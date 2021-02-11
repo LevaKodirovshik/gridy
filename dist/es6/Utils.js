@@ -1,6 +1,6 @@
 import { ANG_4, DEG_TO_RAD } from './Constants';
 export function instance(obj) {
-    return new obj.constructor();
+    return new (obj.constructor)();
 }
 export function enumerate(obj) {
     const result = {};

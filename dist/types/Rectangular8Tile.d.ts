@@ -9,7 +9,7 @@ import { RectangularTile } from './RectangularTile';
 export declare class Rectangular8Tile extends Integer2 implements ITile<Integer2> {
     static directions: Directions<Rectangular8Tile>;
     static sides: Directions<Rectangular8Tile>;
-    readonly key: string;
+    get key(): string;
     shift(): RectangularTile;
     directions(): Directions<RectangularTile>;
     sides(): Directions<RectangularTile>;

@@ -30,7 +30,7 @@ export declare class TriangularGrid implements IGrid<TriangularTile> {
     position(p: Float2): TriangularTile;
     getTileType(tile: TriangularTile): Integer;
     tile(x: number, y: number): TriangularTile;
-    private rhombus();
-    private triangle();
-    private hexagonalShape(size);
+    private rhombus;
+    private triangle;
+    private hexagonalShape;
 }

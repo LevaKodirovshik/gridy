@@ -3,7 +3,7 @@ import { Directions } from './Directions';
 import { AnyTile, ITile, TileMap } from './ITile';
 
 export function instance<T>(obj: T): T {
-  return new (<any>obj.constructor)();
+  return new ((<any>obj).constructor)();
 }
 
 export function enumerate(obj: any): any {

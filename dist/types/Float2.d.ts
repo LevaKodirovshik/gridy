@@ -9,7 +9,7 @@ export declare class Float2 implements IVector<Float> {
     static LERP(a: Integer2, b: Integer2, t: Float): Float2;
     static LINE(a: Integer2, b: Integer2): Integer2[];
     equals(p: Float2): boolean;
-    readonly value: Float[];
+    get value(): Float[];
     scale(k: Float): Float2;
     toString(): string;
 }

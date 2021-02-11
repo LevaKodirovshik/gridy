@@ -55,8 +55,8 @@ export default class Diagram {
     search(search?: Search, fromTile?: string, to?: string): Diagram;
     point(xy: number[]): Diagram;
     mousePoint(): Diagram;
-    private initRoot();
-    private initTiles();
-    private shapePath(tileType);
-    private transition(selection, delta?);
+    private initRoot;
+    private initTiles;
+    private shapePath;
+    private transition;
 }

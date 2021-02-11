@@ -2,7 +2,7 @@ export declare enum Axes4 {
     N = -1,
     S = 1,
     W = -2,
-    E = 2,
+    E = 2
 }
 export declare enum Axes8 {
     N = 1,
@@ -12,7 +12,7 @@ export declare enum Axes8 {
     S = -1,
     W = -2,
     SE = -3,
-    NE = -4,
+    NE = -4
 }
 export declare enum Axes6 {
     N = -1,
@@ -20,5 +20,5 @@ export declare enum Axes6 {
     NW = -2,
     SE = 2,
     NE = -3,
-    SW = 3,
+    SW = 3
 }

@@ -12,8 +12,8 @@ import { ITile } from './ITile';
 export declare class RadialTile extends Integer3 implements ITile<Integer3> {
     static directions: Directions<RadialTile>;
     private tiles;
-    readonly value: Integer[];
-    readonly key: string;
+    get value(): Integer[];
+    get key(): string;
     shift(): RadialTile;
     directions(): Directions<RadialTile>;
     add(a: RadialTile): RadialTile;

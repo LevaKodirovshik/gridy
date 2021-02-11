@@ -10,7 +10,7 @@ export declare class Float3 implements IVector<Float> {
     static LERP(a: Integer3, b: Integer3, t: Float): Float3;
     static LINE(a: Integer3, b: Integer3): Integer3[];
     equals(other: Float3): boolean;
-    readonly value: Float[];
+    get value(): Float[];
     toString(): string;
     round(): Integer3;
 }

@@ -3,5 +3,5 @@ export declare enum Shape {
     Odd = 1,
     Hexagonal = 2,
     Triangular = 3,
-    Rhombus = 4,
+    Rhombus = 4
 }

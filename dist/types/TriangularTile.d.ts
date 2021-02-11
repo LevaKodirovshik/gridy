@@ -20,9 +20,9 @@ export declare class TriangularTile extends Integer2 implements ITile<Integer2> 
         };
     };
     s: boolean;
-    readonly key: string;
+    get key(): string;
     constructor(x?: Integer, y?: Integer, s?: boolean);
-    readonly value: any[];
+    get value(): any[];
     toString(): string;
     equals(p: TriangularTile): boolean;
     shift(): TriangularTile;
